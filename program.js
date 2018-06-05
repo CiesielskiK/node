@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-console.log(global);
-=======
-var OSinfo = require('../modules/OSinfo');
+var OSinfo = require('./OSinfo');
 
 
 process.stdin.setEncoding('utf-8');
@@ -30,4 +27,3 @@ process.stdin.on('readable', function(){
 
 
 
->>>>>>> 3d63e818075678cdf214be497bd6d78f599302c1
